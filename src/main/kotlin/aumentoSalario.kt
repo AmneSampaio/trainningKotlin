@@ -1,8 +1,8 @@
 fun main() {
-    var salarios: DoubleArray = doubleArrayOf(1000.0, 2000.0, 3.000, 4.000)
+    val salarios: DoubleArray = doubleArrayOf(1000.0, 2000.0, 3.000, 4.000)
 
-    var aumento: Double = 1.1
-    var indice: Int = 0
+    val aumento = 1.1
+    var indice = 0
 
     println(salarios.contentToString())
 
